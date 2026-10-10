@@ -5,6 +5,10 @@ iPhone Shortcuts for Food Snap: log a meal from a photo, re-log a usual meal, ma
 Open a link below **in Safari on your iPhone** → **Download** → tap the download arrow (top right) → tap the file → **Add Shortcut**.
 When you add it, it asks for **your Food Snap key** — paste your own. Tailscale must be on for them to work.
 
+**First run: start it inside the Shortcuts app**, not from a widget or Siri. The first time, iPhone asks *"Allow … to connect to gram.tailcbf335.ts.net?"* → tap **Always Allow**. From a widget that question can stay hidden and the shortcut just looks stuck.
+
+**Nothing happens?** Open the Shortcuts app → tap **⋯** on the shortcut → check the actions are all there, then tap ▶ at the bottom; the step that's stuck lights up.
+
 | Shortcut | What it does | Import |
 |---|---|---|
 | **Food Snap All** ⭐ | **One import does everything** — menu: Snap food, Usual, Save as usual, Trained today, Today | [Get it](https://github.com/miloishot/food-snap-shortcuts/raw/main/shortcuts/Food-Snap-All.shortcut) |
