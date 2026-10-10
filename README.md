@@ -3,7 +3,9 @@
 iPhone Shortcuts for Food Snap: log a meal from a photo, re-log a usual meal, mark a dragon boat training day, and get a 9 pm summary.
 
 Open a link below **in Safari on your iPhone** → **Download** → tap the download arrow (top right) → tap the file → **Add Shortcut**.
-When you add it, it asks for **your Food Snap key** — paste your own. Tailscale must be on for them to work.
+When you add it, it asks for **your Food Snap key** — paste your own.
+
+**Faster: keep Tailscale OFF on your phone.** The shortcuts work over the normal internet (about 1–3 s). With Tailscale on but half-connected — weak signal, phone just woke up — a request can hang for minutes.
 
 **First run: start it inside the Shortcuts app**, not from a widget or Siri. The first time, iPhone asks *"Allow … to connect to gram.tailcbf335.ts.net?"* → tap **Always Allow**. From a widget that question can stay hidden and the shortcut just looks stuck.
 
@@ -41,7 +43,7 @@ Every shortcut starts with the same two actions:
 2. **Set Variable** `Key` to *Text*
 
 Every **Get Contents of URL** below uses header `X-Food-Snap-Key` = variable **Key**.
-Server: `https://gram.tailcbf335.ts.net:10000/food` (works only with Tailscale on).
+Server: `https://gram.tailcbf335.ts.net:10000/food` (works over the normal internet; Tailscale not needed).
 
 ### Today
 3. **Get Contents of URL** `…/food/today`, Method **GET**, header as above
