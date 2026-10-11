@@ -13,9 +13,9 @@ When you add it, it asks for **your Food Snap key** — paste your own.
 
 | Shortcut | What it does | Import |
 |---|---|---|
-| **Food Snap All** ⭐ | **One import does everything** — menu: Snap food, Usual, Save as usual, Trained today, Today | [Get it](https://github.com/miloishot/food-snap-shortcuts/raw/main/shortcuts/Food-Snap-All.shortcut) |
-| **Food Snap** | (or separately:) Photo → estimate → Log it / Change amount / Cancel | [Get it](https://github.com/miloishot/food-snap-shortcuts/raw/main/shortcuts/Food-Snap.shortcut) |
-| **Today** | Shows today's kcal and protein vs your goal | [Get it](https://github.com/miloishot/food-snap-shortcuts/raw/main/shortcuts/Today.shortcut) |
+| **Snap** ⭐ | Camera → each item with kcal + protein → Log it / Change amount / Cancel | [Get it](https://github.com/miloishot/food-snap-shortcuts/raw/main/shortcuts/Snap.shortcut) |
+| **Upload** ⭐ | Same, from a photo you already took (or share a photo to it) | [Get it](https://github.com/miloishot/food-snap-shortcuts/raw/main/shortcuts/Upload.shortcut) |
+| **Today** | Today's protein, kcal, carbs, fat and every meal with its protein | [Get it](https://github.com/miloishot/food-snap-shortcuts/raw/main/shortcuts/Today.shortcut) |
 | **Trained today** | Marks today as a training day (+500 kcal, +75 g carbs) | [Get it](https://github.com/miloishot/food-snap-shortcuts/raw/main/shortcuts/Trained-today.shortcut) |
 | **Usual** | Pick a saved meal and log it, no photo | [Get it](https://github.com/miloishot/food-snap-shortcuts/raw/main/shortcuts/Usual.shortcut) |
 | **Save as Usual** | Saves the meal you just logged under a name | [Get it](https://github.com/miloishot/food-snap-shortcuts/raw/main/shortcuts/Save-as-Usual.shortcut) |
